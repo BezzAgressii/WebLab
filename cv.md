@@ -1,68 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-</head>
+# Eduard Grashchenko
 
-<body>
+*Student | Beginner Developer*
 
-<div>
+---
 
-<header>
-    <h1 align="center"><font color="orange">Eduard Grashchenko</font></h1>
-    <p align="center"><em>Student | Beginner Developer</em></p>
-    <hr>
-</header>
+## Navigation
 
-<nav>
-    <ul type="none">
-        <li><a href="#about"><font color="orange">About</font></a></li>
-        <li><a href="#skills"><font color="orange">Skills</font></a></li>
-        <li><a href="#projects"><font color="orange">Projects</font></a></li>
-        <li><a href="#education"><font color="orange">Education</font></a></li>
-        <li><a href="#contact"><font color="orange">Contact</font></a></li>
-    </ul>
-</nav>
+- [About](#about)
+- [Skills](#skills)
+- [Projects](#projects)
+- [Education](#education)
+- [Contact](#contact)
 
-<main>
+---
 
-<section id="about">
-    <h2 align="center"><font color="red">About Me</font></h2>
-    <hr>
+## About Me
 
-    <!-- Аватарка -->
-    <p align="center">
-        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" 
-             alt="Avatar" 
-             width="200" 
-             height="200"
-             border="5">
-    </p>
+![Avatar](https://cdn-icons-png.flaticon.com/512/149/149071.png)
 
-    <p>
-        I am a student and beginner developer. I like programming and want to improve my skills.
-    </p>
-</section>
+I am a student and beginner developer. I like programming and want to improve my skills.
 
-<section id="skills">
-    <h2 align="center"><font color="green">Skills</font></h2>
-    <hr>
+---
 
-    <ul type="none">
-        <li>C#</li>
-        <li>HTML</li>
-        <li>SQL</li>
-        <li>Git</li>
-    </ul>
-</section>
+## Skills
 
-<section>
-    <h2 align="center"><font color="brown">Code Example</font></h2>
-    <hr>
+- C#
+- HTML
+- SQL
+- Git
 
-    <pre>
+---
+
+## Code Example
+
+```csharp
 using System;
 
 class Program
@@ -72,67 +43,27 @@ class Program
         Console.WriteLine("Hello!");
     }
 }
-    </pre>
-</section>
+```
+## Projects
 
-<section id="projects">
-    <h2 align="center"><font color="purple">Projects</font></h2>
-    <hr>
+- CV Website – [GitHub link](https://github.com/BezzAgressii)
 
-    <ol type="none">
-        <li>
-            CV Website -
-            <a href="https://github.com/BezzAgressii">
-                <font color="orange">GitHub link</font>
-            </a>
-        </li>
-    </ol>
-</section>
+## Education
 
-<section id="education">
-    <h2 align="center"><font color="pink">Education</font></h2>
-    <hr>
+University student  
+2nd year  
+2023 – present
 
-    <p>
-        University student <br>
-        2nd year <br>
-        2023 - present
-    </p>
-</section>
+## Languages
 
-<section>
-    <h2 align="center"><font color="dark green">Languages</font></h2>
-    <hr>
+- Russian – native
+- English – beginner
 
-    <ul type="none">
-        <li>Russian - native</li>
-        <li>English - beginner</li>
-    </ul>
-</section>
+## Contact
 
-</main>
+- Phone: +375333379945
+- Email: eduardbarselona228@gmail.com
 
-<footer id="contact">
-    <h2 align="center">Contact</h2>
-    <hr>
+---
 
-    <address>
-        <ul type="none">
-            <li>Phone: <a href="tel:+375333379945">
-                <font color="orange">+375333379945</font>
-            </a></li>
-            <li>Email: <a href="mailto:eduardbarselona228@gmail.com">
-                <font color="orange">eduardbarselona228@gmail.com</font>
-            </a></li>
-        </ul>
-    </address>
-
-    <p align="center">
-        <small>© 2026</small>
-    </p>
-</footer>
-
-</div>
-
-</body>
-</html>
+<small>© 2026</small>
